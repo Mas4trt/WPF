@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-D:\vs\rep\io\obj\Release\net8.0-windows\
+D:\vs\rep\lo\obj\Release\net8.0-windows\
 WpfApp1
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-D:\vs\rep\io\App.xaml
+D:\vs\rep\lo\App.xaml
 11407045341
 
 4537130452
