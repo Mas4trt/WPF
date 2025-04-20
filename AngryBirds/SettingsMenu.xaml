@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="AngryBirds.SettingsMenu"
+             xmlns:local="clr-namespace:AngryBirds"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="SettingsRoot"
+             Width="400" Height="360"
+             Background="Transparent">
+
+    <Border x:Name="SettingsPanel"
+                    Visibility="Visible"
+                    Background="#66000000"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="400"
+                    Height="360"
+                    CornerRadius="20"
+                    Panel.ZIndex="10">
+        <Border Background="#CCFFFFFF"
+                        CornerRadius="20"
+                        Padding="20">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="345" Width="360">
+
+                <TextBlock Text="Настройки"
+                                   FontSize="30"
+                                   FontWeight="Bold"
+                                   Foreground="#AA0000"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,0,0,20"/>
+
+                <CheckBox x:Name="MusicCheckBox"
+                                  Content="Музыка"
+                                  FontSize="20"
+                                  IsChecked="True"
+                                  Checked="MusicCheckBox_Checked"
+                                  Unchecked="MusicCheckBox_Unchecked"
+                                  Margin="0,0,0,12"/>
+
+                <StackPanel Orientation="Vertical" Margin="0,0,0,20">
+                    <TextBlock FontSize="18" Text="Громкость" Margin="0,0,0,4"/>
+                    <Slider x:Name="VolumeSlider"
+                                    Minimum="0"
+                                    Maximum="1"
+                                    Value="0.5"
+                                    Width="260"
+                                    ValueChanged="VolumeSlider_ValueChanged"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <TextBlock Text="Экран: " FontSize="18" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <ComboBox x:Name="ScreenModeComboBox" Width="160" FontSize="16" SelectionChanged="ScreenModeComboBox_SelectionChanged">
+                        <ComboBoxItem Content="Fullscreen"/>
+                        <ComboBoxItem Content="Windowed"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <Button Content="Выйти"
+                            Width="140"
+                            Height="40"
+                            FontSize="18"
+                            Margin="0,50,0,0"
+                            Click="CloseWindow_Click"
+                            Style="{StaticResource YellowCloseButtonStyle}"/>
+
+                <Button Content="Закрыть"
+                                Width="140"
+                                Height="40"
+                                FontSize="18"
+                                Margin="0,9,0,0"
+                                Click="CloseSettingsMenu_Click"
+                                Style="{StaticResource YellowCloseButtonStyle}"/>
+                
+            </StackPanel>
+        </Border>
+    </Border>
+</UserControl>

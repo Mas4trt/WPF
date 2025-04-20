@@ -89,6 +89,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsMenu.xaml.cs">
+      <DependentUpon>SettingsMenu.xaml</DependentUpon>
+    </Compile>
+    <Page Include="GameWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -97,19 +109,21 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GameWindow.xaml.cs">
+      <DependentUpon>GameWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SettingsMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -118,6 +132,7 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -145,7 +160,27 @@
     <Resource Include="Resources\Levels.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Slingshot.png" />
+    <Resource Include="Resources\Platform.png" />
+    <Resource Include="Resources\One_level\Top_Y.png" />
+    <Resource Include="Resources\One_level\pig3.png" />
+    <Resource Include="Resources\One_level\pig2.png" />
+    <Resource Include="Resources\One_level\pig1.png" />
+    <Resource Include="Resources\One_level\Leg2_Y.png" />
+    <Resource Include="Resources\One_level\Leg_Y.png" />
+    <Resource Include="Resources\One_level\Cube3_up.png" />
+    <Resource Include="Resources\One_level\Cube3_right.png" />
+    <Resource Include="Resources\One_level\Cube3_left.png" />
+    <Resource Include="Resources\One_level\Cube3_down.png" />
+    <Resource Include="Resources\One_level\Cube2_up.png" />
+    <Resource Include="Resources\One_level\Cube2_right.png" />
+    <Resource Include="Resources\One_level\Cube2_left.png" />
+    <Resource Include="Resources\One_level\Cube2_down.png" />
+    <Resource Include="Resources\One_level\Cube1_Up.png" />
+    <Resource Include="Resources\One_level\Cube1_Right.png" />
+    <Resource Include="Resources\One_level\Cube1_Left.png" />
+    <Resource Include="Resources\One_level\Cube1_down.png" />
+    <Resource Include="Resources\SlingshotBack.png" />
+    <Resource Include="Resources\SlingshotFront.png" />
     <Resource Include="Resources\GameBackground.jpg" />
     <None Include="Resources\GameMusic.wav" />
     <Resource Include="Resources\bird.png" />

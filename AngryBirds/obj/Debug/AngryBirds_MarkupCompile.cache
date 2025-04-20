@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\vs\rep\AngryBirds\AngryBirds\obj\Debug\
+D:\vs\rep\po\AngryBirds\obj\Debug\
 AngryBirds
 none
 false
 DEBUG;TRACE
-D:\vs\rep\AngryBirds\AngryBirds\App.xaml
-1219584333
+D:\vs\rep\po\AngryBirds\App.xaml
+3-888669355
 1-1221412501
-51579654133
-25-328278754
-MainWindow.xaml;
+7-368347663
+25-1463873766
+GameWindow.xaml;MainWindow.xaml;SettingsMenu.xaml;
 
 False
 

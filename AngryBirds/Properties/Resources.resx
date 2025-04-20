@@ -121,10 +121,67 @@
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Cube1_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube1_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube1_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube1_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube1_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube1_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube1_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube1_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube2_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube2_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube2_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube2_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube2_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube2_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube2_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube2_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube3_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube3_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube3_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube3_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube3_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube3_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cube3_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Cube3_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GameMusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GameMusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Leg2_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Leg2_Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leg_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Leg_Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MainMenu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pig1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\pig1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pig2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\pig2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pig3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\pig3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Platform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Platform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Top_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One_level\Top_Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

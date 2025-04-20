@@ -1,24 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\vs\\rep\\AngryBirds\\",
+  "WorkspaceRootPath": "D:\\vs\\rep\\po\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|d:\\vs\\rep\\angrybirds\\angrybirds\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|d:\\vs\\rep\\po\\angrybirds\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|d:\\vs\\rep\\angrybirds\\angrybirds\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|d:\\vs\\rep\\po\\angrybirds\\gamewindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\gamewindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|D:\\vs\\rep\\AngryBirds\\angrybirds\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|D:\\vs\\rep\\po\\angrybirds\\settingsmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\settingsmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|D:\\vs\\rep\\po\\angrybirds\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|D:\\vs\\rep\\po\\angrybirds\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AngryBirds||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|d:\\vs\\rep\\angrybirds\\angrybirds\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|D:\\vs\\rep\\po\\angrybirds\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|d:\\vs\\rep\\po\\angrybirds\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{EAB538BE-5C19-4FAF-AF86-5570A4AB747C}|AngryBirds\\AngryBirds.csproj|solutionrelative:angrybirds\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
@@ -29,44 +41,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AngryBirds",
-              "DocumentMoniker": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\AngryBirds.csproj",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\AngryBirds.csproj",
               "RelativeDocumentMoniker": "AngryBirds\\AngryBirds.csproj",
-              "ToolTip": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\AngryBirds.csproj",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\AngryBirds.csproj",
               "RelativeToolTip": "AngryBirds\\AngryBirds.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-17T11:44:21.839Z",
+              "WhenOpened": "2025-04-20T13:19:30.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameWindow.xaml",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\GameWindow.xaml",
+              "RelativeDocumentMoniker": "AngryBirds\\GameWindow.xaml",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\GameWindow.xaml",
+              "RelativeToolTip": "AngryBirds\\GameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-20T12:21:18.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AngryBirds\\MainWindow.xaml",
-              "ToolTip": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\MainWindow.xaml",
-              "RelativeToolTip": "AngryBirds\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T07:13:51.041Z",
+              "Title": "SettingsMenu.xaml.cs",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\SettingsMenu.xaml.cs",
+              "RelativeDocumentMoniker": "AngryBirds\\SettingsMenu.xaml.cs",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\SettingsMenu.xaml.cs",
+              "RelativeToolTip": "AngryBirds\\SettingsMenu.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T05:14:40.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AngryBirds\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "AngryBirds\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAALYAAAAAAAAAAAA7wMYAAAAlAAAAAAAAAA==",
+              "Title": "GameWindow.xaml.cs",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\GameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AngryBirds\\GameWindow.xaml.cs",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\GameWindow.xaml.cs",
+              "RelativeToolTip": "AngryBirds\\GameWindow.xaml.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAAwGIBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T07:13:50.447Z",
+              "WhenOpened": "2025-04-17T18:56:35.51Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AngryBirds\\MainWindow.xaml",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\MainWindow.xaml",
+              "RelativeToolTip": "AngryBirds\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T18:13:21.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AngryBirds\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AngryBirds\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:36:10.961Z"
             }
           ]
         }
@@ -76,12 +125,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "c05285b0-7551-4dcd-bdbf-f38766c808ed",
+        "Id": "b831a1f6-f744-4d1e-883e-e2210075c2cf",
         "Display": 0,
-        "X": 888,
-        "Y": 156,
-        "Width": 985,
-        "Height": 893,
+        "X": 0,
+        "Y": 65,
+        "Width": 800,
+        "Height": 600,
         "WindowState": 0
       },
       "DocumentGroups": [
@@ -92,14 +141,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AngryBirds\\MainWindow.xaml",
-              "ToolTip": "D:\\vs\\rep\\AngryBirds\\AngryBirds\\MainWindow.xaml",
-              "RelativeToolTip": "AngryBirds\\MainWindow.xaml",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAAAP8AAAAcAAAAAAAAAA==",
+              "Title": "GameWindow.xaml",
+              "DocumentMoniker": "D:\\vs\\rep\\po\\AngryBirds\\GameWindow.xaml",
+              "RelativeDocumentMoniker": "AngryBirds\\GameWindow.xaml",
+              "ToolTip": "D:\\vs\\rep\\po\\AngryBirds\\GameWindow.xaml",
+              "RelativeToolTip": "AngryBirds\\GameWindow.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T08:17:51.153Z",
+              "WhenOpened": "2025-04-20T13:21:30.247Z",
               "EditorCaption": ""
             }
           ]

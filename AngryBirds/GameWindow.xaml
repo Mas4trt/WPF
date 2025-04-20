@@ -1,0 +1,188 @@
+﻿<Window x:Class="AngryBirds.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AngryBirds"
+        mc:Ignorable="d"
+        Icon="/Resources/icon.ico"
+        Title="AngryBirdsY"
+        WindowState="Maximized"
+        ResizeMode="NoResize"
+        Topmost="True">
+
+    <Viewbox Stretch="Fill">
+        <Grid x:Name="MainGrid" Width="1920" Height="1080">
+            <Grid.Background>
+                <ImageBrush ImageSource="pack://application:,,,/Resources/GameBackground.jpg" Stretch="Fill"/>
+            </Grid.Background>
+
+            <Canvas x:Name="GameCanvas" Background="Transparent" Margin="0,-63,0,63">
+                <!-- Правая часть рогатки -->
+                <Image x:Name="SlingshotFront"
+                   Source="/Resources/SlingshotFront.png"
+                   Height="205"
+                   Canvas.Left="236"
+                   Canvas.Top="641.3 "
+                   Panel.ZIndex="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="206"/>
+                <!-- Птичка -->
+                <Image x:Name="Bird"
+                   Source="/Resources/bird.png"
+                   Width="140"
+                   Height="140"
+                   Canvas.Left="265"
+                   Canvas.Top="654"
+                   Panel.ZIndex="6" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <!-- Левая часть рогатки -->
+                <Image x:Name="SlingshotBack"
+                   Source="/Resources/SlingshotBack.png"
+                   Width="411"
+                   Height="526"
+                   Canvas.Left="107"
+                   Canvas.Top="653"
+                   Panel.ZIndex="7" HorizontalAlignment="Center" VerticalAlignment="Top" d:IsLocked="True"/>
+                <!-- Платформа -->
+                <Image x:Name="Platform"
+                   Source="/Resources/Platform.png"
+                   Width="498"
+                   Height="564"
+                   Canvas.Left="1251"
+                   Canvas.Top="728"
+                   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+                <Image x:Name="Leg_Y" Source="/Resources/One_level/Leg_Y.png" Width="100" Height="100" Canvas.Left="1476" Canvas.Top="570" />
+                <Image x:Name="Leg2_Y" Source="/Resources/One_level/Leg2_Y.png" Width="100" Height="100" Canvas.Left="1450" Canvas.Top="586" />
+                <Image x:Name="Top_Y" Source="/Resources/One_level/Top_Y.png" Width="100" Height="100" Canvas.Left="1455" Canvas.Top="559" />
+
+                <Image x:Name="Cube1_Down" Source="/Resources/One_level/Cube1_down.png" Width="139" Height="137" Canvas.Left="1335" Canvas.Top="788"  />
+                <Image x:Name="Cube1_Left" Source="/Resources/One_level/Cube1_left.png" Width="134" Height="155" Canvas.Left="1279" Canvas.Top="749" />
+                <Image x:Name="Cube1_Right" Source="/Resources/One_level/Cube1_right.png" Width="133" Height="134" Canvas.Left="1389" Canvas.Top="747" />
+                <Image x:Name="Cube1_Up" Source="/Resources/One_level/Cube1_up.png" Width="159" Height="159" Canvas.Left="1323" Canvas.Top="686" />
+                <Image x:Name="Pig1" Source="/Resources/One_level/pig1.png" Width="100" Height="100" Canvas.Left="1355" Canvas.Top="757" />
+                <Image x:Name="Cube3_Down" Source="/Resources/One_level/Cube3_down.png" Width="135" Height="134" Canvas.Left="1527" Canvas.Top="786" />
+                <Image x:Name="Cube3_Left" Source="/Resources/One_level/Cube3_left.png" Width="130" Height="131" Canvas.Left="1486" Canvas.Top="747"/>
+                <Image x:Name="Cube3_Right" Source="/Resources/One_level/Cube3_right.png" Width="132" Height="132" Canvas.Left="1569" Canvas.Top="748" />
+                <Image x:Name="Cube3_Up" Source="/Resources/One_level/Cube3_up.png" Width="141" Height="140" Canvas.Left="1519" Canvas.Top="699" />
+                <Image x:Name="Pig3" Source="/Resources/One_level/pig3.png" Width="90" Height="92" Canvas.Left="1549" Canvas.Top="777"/>
+                <Image x:Name="Cube2_Down" Source="/Resources/One_level/Cube2_down.png" Width="130" Height="128" Canvas.Left="1437" Canvas.Top="697" />
+                <Image x:Name="Cube2_Left" Source="/Resources/One_level/Cube2_left.png" Width="130" Height="130" Canvas.Left="1397" Canvas.Top="653" />
+                <Image x:Name="Cube2_Right" Source="/Resources/One_level/Cube2_right.png" Width="128" Height="130" Canvas.Left="1481" Canvas.Top="653" />
+                <Image x:Name="Cube2_Up" Source="/Resources/One_level/Cube2_up.png" Width="144" Height="142" Canvas.Left="1429" Canvas.Top="603" />
+                <Image x:Name="Pig2" Source="/Resources/One_level/pig2.png" Width="100" Height="100" Canvas.Left="1456" Canvas.Top="679" />
+
+            </Canvas>
+
+
+
+            <Border x:Name="InputPanel"
+                Visibility="Visible"
+                Padding="20"
+                CornerRadius="15"
+                Background="#CCFFFFFF"
+                Width="608"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Panel.ZIndex="5"
+                Height="324" d:IsHidden="True">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Введите параметры полета" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+                    <StackPanel Orientation="Vertical" Margin="0,5">
+                        <TextBlock Text="Начальная скорость (м/с)" FontSize="16"/>
+                        <TextBox x:Name="SpeedTextBox" FontSize="16"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="0,5">
+                        <TextBlock Text="Угол (градусы)" FontSize="16"/>
+                        <TextBox x:Name="AngleTextBox" FontSize="16"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="0,5">
+                        <TextBlock Text="Шаг времени (с)" FontSize="16"/>
+                        <TextBox x:Name="TimeStepTextBox"
+                             FontSize="16"
+                             Text="0,05"
+                             IsReadOnly="True"
+                             IsEnabled="False"
+                             Background="#EEE"/>
+                    </StackPanel>
+                    <StackPanel x:Name="ButtonPanel" Orientation="Horizontal" Margin="0,40,0,0" HorizontalAlignment="Center" >
+                        <Button x:Name="NextButton"
+                                Content="Далее"
+                                Click="NextButton_Click"
+                                Style="{StaticResource YellowCloseButtonStyle}"
+                                Width="120"
+                                Height="40"
+                                Margin="5,0"/>
+
+                        <Button x:Name="FlyButton"
+                                Content="Полет"
+                                Click="FlyButton_Click"
+                                Style="{StaticResource YellowCloseButtonStyle}"
+                                Width="120"
+                                Height="40"
+                                Margin="5,0"
+                                Visibility="Collapsed"/>
+
+                        <Button x:Name="EditButton"
+                                Content="Изменить"
+                                Click="EditButton_Click"
+                                Style="{StaticResource YellowCloseButtonStyle}"
+                                Width="120"
+                                Height="40"
+                                Margin="5,0"
+                                Visibility="Collapsed"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+
+            <Border Background="#AAFFFFFF"
+                CornerRadius="10"
+                Padding="10"
+                Margin="0,21,35,0"
+                Width="300"
+                Height="200"
+                HorizontalAlignment="Right"
+                Visibility="Visible"
+                VerticalAlignment="Top">
+                <StackPanel x:Name="ResultsPanel" Orientation="Vertical">
+                    <TextBlock x:Name="MaxHeightText" FontSize="16" Margin="0,5"/>
+                    <TextBlock x:Name="XCoordsText" FontSize="16" Margin="0,5"/>
+                    <TextBlock x:Name="YCoordsText" FontSize="16" Margin="0,5"/>
+                    <TextBlock x:Name="StatusText" FontSize="16" Margin="0,5" Foreground="Green"/>
+                </StackPanel>
+            </Border>
+
+            <Button x:Name="Settings"
+                Width="80"
+                Height="79"
+                Click="Settings_Click"
+                BorderThickness="0"
+                Background="Transparent"
+                Cursor="Hand"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="38,31,0,0">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border x:Name="HoverEffect"
+                                Background="Transparent"
+                                BorderThickness="2"
+                                BorderBrush="Transparent"
+                                CornerRadius="10"/>
+                            <Image Source="/Resources/Settings.png" Stretch="Fill"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="HoverEffect" Property="Background" Value="#33CCCCCC"/>
+                                <Setter TargetName="HoverEffect" Property="BorderBrush" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <local:SettingsMenu x:Name="SettingsMenuControl" Visibility="Collapsed" Panel.ZIndex="10"/>
+        </Grid>
+    </Viewbox>
+
+</Window>
