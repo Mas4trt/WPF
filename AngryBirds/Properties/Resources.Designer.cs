@@ -220,6 +220,16 @@ namespace AngryBirds.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Levels {
+            get {
+                object obj = ResourceManager.GetObject("Levels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream MainMenu {
@@ -264,6 +274,36 @@ namespace AngryBirds.Properties {
         internal static System.Drawing.Bitmap Platform {
             get {
                 object obj = ResourceManager.GetObject("Platform", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Play {
+            get {
+                object obj = ResourceManager.GetObject("Play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Star_One {
+            get {
+                object obj = ResourceManager.GetObject("Star_One", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Star_Zero {
+            get {
+                object obj = ResourceManager.GetObject("Star_Zero", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -160,6 +160,9 @@
     <Resource Include="Resources\Levels.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Star_Zero.png" />
+    <Resource Include="Resources\Star_One.png" />
+    <Resource Include="Resources\Play.png" />
     <Resource Include="Resources\Platform.png" />
     <Resource Include="Resources\One_level\Top_Y.png" />
     <Resource Include="Resources\One_level\pig3.png" />

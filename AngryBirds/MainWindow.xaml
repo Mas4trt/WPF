@@ -10,6 +10,9 @@
         WindowState="Maximized"
         ResizeMode="NoResize"
         Topmost="True">
+    <Window.Resources>
+        <DropShadowEffect x:Key="GlowEffect" Color="Yellow" BlurRadius="20" ShadowDepth="0"/>
+    </Window.Resources>
     <Viewbox Stretch="Fill">
         <Grid x:Name="MainGrid" Width="1920" Height="1080">
             <Grid.Background>
@@ -21,29 +24,78 @@
                         Orientation="Vertical"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
-                        Width="660"
-                        Panel.ZIndex="5" Height="194">
-                <Button Content="Play"
-                        Width="344"
-                        Height="86"
-                        FontSize="24"
-                        FontWeight="Bold"
-                        Margin="0,0,0,20"
+                        Width="584"
+                        Panel.ZIndex="5" Height="350">
+                <Button x:Name="Play"
+                        Width="560"
+                        Height="170"
                         Click="PlayButton_Click"
-                        Style="{StaticResource YellowCloseButtonStyle}"/>
-                <Button Content="Выйти"
-                        Width="340"
-                        Height="85"
-                        FontSize="24"
-                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Background="Transparent"
+                        Cursor="Hand"
+                        >
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Border x:Name="HoverEffect"
+                        Background="Transparent"
+                        BorderThickness="2"
+                        BorderBrush="Transparent"
+                        CornerRadius="10"/>
+                                <Image x:Name="PLayButtonMenu" Source="/Resources/Play.png" Stretch="Fill"/>
+                                <TextBlock x:Name="PlayText"
+                                        Text="Play"
+                                       Foreground="White"
+                                       FontSize="56"
+                                       FontWeight="Bold" Margin="218,38,218,58"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="PLayButtonMenu" Property="Effect" Value="{StaticResource GlowEffect}"/>
+                                    <Setter TargetName="PlayText"  Property="Opacity" Value="0.8"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="Exit"
+                        Width="560"
+                        Height="170"         
                         Click="ExitButton_Click"
-                        Style="{StaticResource YellowCloseButtonStyle}"/>
+                        BorderThickness="0"
+                        Background="Transparent"
+                        Cursor="Hand"
+        >
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Border x:Name="HoverEffect"
+                                Background="Transparent"
+                                BorderThickness="2"
+                                BorderBrush="Transparent"
+                                CornerRadius="10"/>
+                                <Image x:Name="ExitButtonMenu" Source="/Resources/Play.png" Stretch="Fill"/>
+                                <TextBlock x:Name="ExitText"
+                                    Text="Exit"
+                                    Foreground="White"
+                                    FontSize="56"
+                                    FontWeight="Bold" Margin="228,38,228,58"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="ExitButtonMenu" Property="Effect" Value="{StaticResource GlowEffect}"/>
+                                    <Setter TargetName="ExitText"  Property="Opacity" Value="0.8"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
             </StackPanel>
 
             <!-- Кнопка "Настройки" с иконкой -->
             <Button x:Name="Settings"
-                    Width="80"
-                    Height="79"
+                    Width="94"
+                    Height="93"
                     Click="Settings_Click"
                     BorderThickness="0"
                     Background="Transparent"
@@ -59,12 +111,11 @@
                                     BorderThickness="2"
                                     BorderBrush="Transparent"
                                     CornerRadius="10"/>
-                            <Image Source="/Resources/Settings.png" Stretch="Fill"/>
+                            <Image x:Name="SettingButton" Source="/Resources/Settings.png" Stretch="Fill"/>
                         </Grid>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="HoverEffect" Property="Background" Value="#33CCCCCC"/>
-                                <Setter TargetName="HoverEffect" Property="BorderBrush" Value="White"/>
+                                <Setter TargetName="SettingButton" Property="Effect" Value="{StaticResource GlowEffect}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>

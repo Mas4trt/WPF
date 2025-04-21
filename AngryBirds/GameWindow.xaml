@@ -10,14 +10,25 @@
         WindowState="Maximized"
         ResizeMode="NoResize"
         Topmost="True">
+    <Window.Resources>
+        <DropShadowEffect x:Key="GlowEffect" Color="Yellow" BlurRadius="20" ShadowDepth="0"/>
+    </Window.Resources>
 
     <Viewbox Stretch="Fill">
         <Grid x:Name="MainGrid" Width="1920" Height="1080">
             <Grid.Background>
                 <ImageBrush ImageSource="pack://application:,,,/Resources/GameBackground.jpg" Stretch="Fill"/>
             </Grid.Background>
-
-            <Canvas x:Name="GameCanvas" Background="Transparent" Margin="0,-63,0,63">
+            <Image x:Name="Star_Zero" Source="/Resources/Star_Zero.png"
+                
+                 Margin="760,70,1038,888" RenderTransformOrigin="0.48,0.324"/>
+            <Image x:Name="Star_Zero_Two" Source="/Resources/Star_Zero.png"
+                
+                Margin="888,22,909,936"/>
+            <Image x:Name="Star_Zero_Thee" Source="/Resources/Star_Zero.png"
+                
+                 Margin="1005,70,790,888"/>
+            <Canvas x:Name="GameCanvas" Background="Transparent" Margin="0,-62,0,62">
                 <!-- Правая часть рогатки -->
                 <Image x:Name="SlingshotFront"
                    Source="/Resources/SlingshotFront.png"
@@ -69,6 +80,7 @@
                 <Image x:Name="Cube2_Right" Source="/Resources/One_level/Cube2_right.png" Width="128" Height="130" Canvas.Left="1481" Canvas.Top="653" />
                 <Image x:Name="Cube2_Up" Source="/Resources/One_level/Cube2_up.png" Width="144" Height="142" Canvas.Left="1429" Canvas.Top="603" />
                 <Image x:Name="Pig2" Source="/Resources/One_level/pig2.png" Width="100" Height="100" Canvas.Left="1456" Canvas.Top="679" />
+
 
             </Canvas>
 
@@ -169,12 +181,11 @@
                                 BorderThickness="2"
                                 BorderBrush="Transparent"
                                 CornerRadius="10"/>
-                            <Image Source="/Resources/Settings.png" Stretch="Fill"/>
+                            <Image x:Name="SettingButton" Source="/Resources/Settings.png" Stretch="Fill"/>
                         </Grid>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="HoverEffect" Property="Background" Value="#33CCCCCC"/>
-                                <Setter TargetName="HoverEffect" Property="BorderBrush" Value="White"/>
+                                <Setter TargetName="SettingButton" Property="Effect" Value="{StaticResource GlowEffect}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>

@@ -166,6 +166,9 @@
   <data name="Leg_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\One_level\Leg_Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Levels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Levels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MainMenu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -180,6 +183,15 @@
   </data>
   <data name="Platform" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Platform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Star_One" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Star_One.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Star_Zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Star_Zero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Top_Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\One_level\Top_Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

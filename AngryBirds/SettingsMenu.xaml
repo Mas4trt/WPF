@@ -6,7 +6,8 @@
              Width="400" Height="360"
              Background="Transparent">
 
-    <Border x:Name="SettingsPanel"
+
+        <Border x:Name="SettingsPanel"
                     Visibility="Visible"
                     Background="#66000000"
                     HorizontalAlignment="Center"
