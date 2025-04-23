@@ -26,7 +26,7 @@ using System.Diagnostics;
 
 namespace AngryBirds
 {
-    public partial class GameWindow : Window
+    public partial class GameWindow : UserControl
     {
         private double _time;
         private double _startX;
@@ -61,11 +61,12 @@ namespace AngryBirds
 
             _renderHandler = new EventHandler(OnRender);
             CompositionTarget.Rendering += _renderHandler;
+
+            Unloaded += GameControl_Unloaded;
         }
 
-        protected override void OnClosed(EventArgs e)
+        private void GameControl_Unloaded(object sender, RoutedEventArgs e)
         {
-            base.OnClosed(e);
             CompositionTarget.Rendering -= _renderHandler;
             MusicPlayer.Instance.Stop();
         }

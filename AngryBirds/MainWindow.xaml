@@ -18,6 +18,7 @@
             <Grid.Background>
                 <ImageBrush ImageSource="pack://application:,,,/Resources/background.jpg" Stretch="Fill"/>
             </Grid.Background>
+            <ContentControl x:Name="MainContent" />
 
             <!-- Кнопки "Играть" и "Выход" -->
             <StackPanel x:Name="ButtonsPanel"

@@ -39,9 +39,9 @@ namespace AngryBirds
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
             musicPlayer.Stop();
-            var gameWindow = new GameWindow();
-            gameWindow.Show();
-            this.Close();
+            MainContent.Content = new GameWindow();
+            ButtonsPanel.Visibility = Visibility.Collapsed;
+            Settings.Visibility = Visibility.Collapsed;
         }
 
         private void Settings_Click(object sender, RoutedEventArgs e)
@@ -53,14 +53,6 @@ namespace AngryBirds
         {
             musicPlayer.Stop();
             Close();
-        }
-
-        private void StartGame_Click(object sender, RoutedEventArgs e)
-        {
-            musicPlayer.Stop();
-            var gameWindow = new GameWindow();
-            gameWindow.Show();
-            this.Close();
         }
     }
     public class MusicPlayer

@@ -73,7 +73,6 @@ D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds_Content.g.cs
 D:\vs\rep\yu\AngryBirds\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds_MarkupCompile.cache
 D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds_MarkupCompile.lref
-D:\vs\rep\yu\AngryBirds\obj\Debug\App.baml
 D:\vs\rep\yu\AngryBirds\obj\Debug\GameWindow.baml
 D:\vs\rep\yu\AngryBirds\obj\Debug\MainWindow.baml
 D:\vs\rep\yu\AngryBirds\obj\Debug\SettingsMenu.baml
@@ -84,3 +83,4 @@ D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds.csproj.CoreCompileInputs.cache
 D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds.csproj.Up2Date
 D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds.exe
 D:\vs\rep\yu\AngryBirds\obj\Debug\AngryBirds.pdb
+D:\vs\rep\yu\AngryBirds\obj\Debug\App.baml
